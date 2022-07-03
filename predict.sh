@@ -9,7 +9,7 @@ module load anaconda3
 source activate
 conda deactivate
 conda activate torch1.2
-python predict.py
+python predict.py --mode fps --fps_image_path img/000001.jpg
 
 #--gpus $CUDA_VISIBLE_DEVICES
 #~/.cache/torch/checkpoints/yolov5s.pt
