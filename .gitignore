@@ -9,6 +9,8 @@ logs/
 model_data/
 .temp_map_out/
 
+img/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
