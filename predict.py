@@ -67,19 +67,6 @@ if __name__ == "__main__":
     opt = parse_opt()
     efficientdet = Efficientdet()
 
-    # crop = False
-    # count = False
-    #
-    # video_path = 0
-    # video_save_path = ""
-    # video_fps = 25.0
-    #
-    # test_interval = 100
-    # fps_image_path = "img/street.jpg"
-    #
-    # dir_origin_path = "img/"
-    # dir_save_path = "img_out/"
-
     if opt.mode == "predict":
         '''
         1、如果想要进行检测完的图片的保存，利用r_image.save("img.jpg")即可保存，直接在predict.py里进行修改即可。 
